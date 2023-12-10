@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Progetto Settimanale Unit2 week3</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./assets/logoSamsung.png" alt="logo google" class="ms-2" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#store">Store</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="backoffice.html">Backoffice</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main id="containerCards">
+      <div class="container-fluid text-light pt-5">
+        <div class="row">
+          <div class="col-12 col-md-6 d-flex flex-column align-content-center justify-content-center pe-5 pb-3 ps-5">
+            <div class="col-6 d-none d-md-block"></div>
+            <h6 class="h5">CONDIVIDI LA RIVOLUZIONE</h6>
+            <h1 class="display-2">GALAXY</h1>
+            <p>Prova i nuovissimi Galaxy S23, S23+ e S23 ULTRA</p>
+            <hr />
+            <div class="row">
+              <div class="col col-md-4">
+                <button type="button" class="btn btn-outline-light">Scopri di più</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h2 id="store" class="text-light text-center">Vieni a scoprire tutta la linea Galaxy</h2>
+        <div class="spinner-border text-white d-block mx-auto mb-4" role="status">
+          <span class="visually-hidden"></span>
+        </div>
+        <div class="row justify-content-center" id="item"></div>
+      </div>
+    </main>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-2 px-3 border-top">
+      <p class="col-md-4 mb-0">© Samsung</p>
+      <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto"
+        ><img src="./assets/logoSamsung.png" alt="logo Samsung"
+      /></a>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>

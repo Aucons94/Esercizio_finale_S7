@@ -1,0 +1,47 @@
+#containerCards {
+  min-height: calc(100vh - 160px);
+  padding-bottom: 60px;
+  background-color: #080a07;
+}
+#containerDetails {
+  padding-bottom: 60px;
+  background-color: #e5e5e5;
+}
+#containerBackoffice {
+  padding-bottom: 60px;
+  background-color: #000000;
+}
+@media screen and (max-width: 768px) {
+  #imgDettagli {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  #containerDetails {
+    background-image: url(../sfondoDetails.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 992px) {
+  #rowBackoffice {
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 992px) {
+  #containerCards {
+    background-image: url(../sfondoIndex.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #containerBackoffice {
+    background-image: url(../sfondoBackoffice.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+#cardsIndex:hover {
+  transform: scale(1.15);
+  z-index: 10;
+}
