@@ -1,7 +1,8 @@
 #containerCards {
   min-height: calc(100vh - 160px);
   padding-bottom: 60px;
-  background-color: #080a07;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(133, 136, 136, 1) 50%, rgba(0, 0, 0, 1) 100%);
 }
 #containerDetails {
   padding-bottom: 60px;
@@ -29,11 +30,6 @@
   }
 }
 @media screen and (min-width: 992px) {
-  #containerCards {
-    background-image: url(../sfondoIndex.avif);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
   #containerBackoffice {
     background-image: url(../sfondoBackoffice.avif);
     background-repeat: no-repeat;
